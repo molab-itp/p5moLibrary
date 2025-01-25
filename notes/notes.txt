@@ -1,0 +1,20 @@
+notes.txt
+
+# --
+
+https://blackfacts.com
+
+src/demo/BlackFacts
+
+# --
+
+- Splat to show all public images in 
+  let galleryKey = 'mo-1/gallery-@r-';
+  - image size is random
+
+10.4.0
+
+fireb_.auth.currentUser.uid
+'yGt3ZocTRxWpZQu9bMymjI8zku32'
+
+function ui_toggle_scroll() {

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mo-videoplayer ?v=122</title>
+  </head>
+  <body>
+    <div>
+      <h1 id="id_title">Welcome to mo-videoplayer ?v=122</h1>
+      By entering this site you agree to have anonymous user data stored <br />
+      <h2>
+        <a href="../demo/mo-videoplayer/index.html?v=122" id="id_link">
+          <!-- -->
+          Enter mo-videoplayer playlist
+        </a>
+      </h2>
+      video montage by Ali Santana and students of his "Alter Ego" class. <br />
+      An experimental interactive multi-screen experience <br />
+      <br />
+      by <a href="https://jht1493.net" target="jht">John Henry Thompson</a> <br />
+      powered by <a href="https://github.com/molab-itp/p5moLibrary" target="moLibrary"> p5moLibrary</a>
+    </div>
+
+    <script>
+      let str = window.location.search;
+      if (str) {
+        str = '&' + str.substring(1);
+        id_link.href += str;
+        id_title.innerHTML = id_title.innerHTML + str;
+      }
+    </script>
+  </body>
+</html>

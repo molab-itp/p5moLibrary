@@ -1,0 +1,72 @@
+_aplan.txt
+
+# --
+
+[] doc: lib/fireb_
+[] doc: permision model
+  my.dbase_rootPath = '-mo-storage-video-@w-/clips';
+  my.dbase_rootPath = '-mo-1-@w-';
+  dbStoreRootPath: 'm0-@r-@w-',
+let galleryKey = 'mo-1/gallery-@r-';
+let storeKey = 'mo-1/gallery-@r-';
+
+[] center sample
+[] no margin below 8 pixels
+[] square
+
+[] center get pixel
+my.getOffset
+    colr = img.get(my.vx, my.vy);
+
+# --
+[] upload canvas sequence
+
+# --
+[x] store by y index, not y coord
+// index for pix/{uid}/n
+my.v xi
+my.v yi
+my.v xn
+my.v yn
+
+if (my.v x >= my.vwidth) {
+
+if (my.v y >= my.vheight) {
+
+# --
+2023-09-23 14:21:30
+[x] getStorage
+  --> storage
+
+# --
+2023-09-23 03:18:16
+
+[x] listALl fixed. Missing version in firebase rules
+Bytes sent by all clients. The limit is 1 GB per day.
+1.38GB
+>> try on jht1493 firebase, same listAll failure
+>> need to play cors to jht1493
+  let type = 'image/png'; // png image type preserves white background
+
+# --
+2023-09-23 02:39:47
+[x] allow writes only to path containing -@w-
+
+2023-09-22 11:06:37
+[x] upload canvas
+demo/mo-storage
+
+# --
+2023-09-21 15:47:09
+
+[x] demo_getDownloadURL
+[x] image blob from firebase storage
+
+# --
+https://molab-itp.github.io/p5moLibrary/demo/mo-pix-chip-grid/
+[x] y position in dbbase is off by 1
+  0 --> 30
+[x] 2x2 option
+[x] 1x1 option
+
+# --
