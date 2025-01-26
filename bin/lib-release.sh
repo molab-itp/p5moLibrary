@@ -22,7 +22,7 @@ verbose=
 # test=--dry-run
 # verbose=v
 
-buildnum=`cat ../src/gen/build_ver.txt`
+buildnum=`cat ../gen/build_ver.txt`
 
 rdest=$dest/lib/$buildnum
 
