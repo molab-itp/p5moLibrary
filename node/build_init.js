@@ -15,7 +15,7 @@ export function init(my) {
   //
   my.root_path = join(__dirname, '..');
   my.buildnum_files = ['../README.md', './README.md', './demo/', './lib/', './qrcode/'];
-  my.buildnum_path = 'gen/build_ver.txt';
+  my.buildnum_path = '../gen/build_ver.txt';
   my.a_src = 'src';
   my.incrementFlag = 0;
   my.writeFlag = 0;
