@@ -16,7 +16,7 @@ quiet=--quiet
 bin/build.sh --prod $quiet
 
 git add . 
-git commit $quiet -m "`cat src/gen/build_ver.txt`"
+git commit $quiet -m "`cat gen/build_ver.txt`"
 git push $quiet
 
 # switch to release, and merge in main
@@ -28,4 +28,4 @@ git push $quiet
 git checkout main $quiet
 
 echo
-echo "build `cat src/gen/build_ver.txt`"
+echo "build `cat gen/build_ver.txt`"
