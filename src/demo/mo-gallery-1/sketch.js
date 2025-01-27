@@ -2,7 +2,7 @@
 // firebase mo-gallery-1
 // Display images from Firebase storage as a billboard using createImg
 
-// https://molab-itp.github.io/p5moLibrary/src/demo/mo-gallery-1/?v=5
+// https://molab-itp.github.io/p5moLibrary/src/demo/mo-gallery-1/?v=6
 
 let a_version = 'v9 ';
 let galleryKey = 'mo-1/gallery-@r-';
