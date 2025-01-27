@@ -48,13 +48,15 @@ demos using p5moLibrary internally. plan is to move them to p5moExamples
 
 ### QR Code access
 
-- [qrcode/mo-blackfacts s1](qrcode/mo-blackfacts?v=4&group=s1)
-- [qrcode/mo-blackfacts s2](qrcode/mo-blackfacts?v=4&group=s2)
-- [qrcode/mo-blackfacts s3](qrcode/mo-blackfacts?v=4&group=s3)
-- [qrcode/mo-blackfacts s4](qrcode/mo-blackfacts?v=4&group=s4)
-- [qrcode/mo-blackfacts s5](qrcode/mo-blackfacts?v=4&group=s5)
-- [qrcode/mo-blackfacts s6](qrcode/mo-blackfacts?v=4&group=s6)
-- [qrcode/mo-blackfacts s1-s6](qrcode/mo-blackfacts?v=4&group=s1,s2,s3,s4,s5,s6)
+src/qrcode/mo-blackfacts-qrcode.html
+
+- [qrcode/mo-blackfacts s1](qrcode/mo-blackfacts-qrcode.html?v=4&group=s1)
+- [qrcode/mo-blackfacts s2](qrcode/mo-blackfacts-qrcode.html?v=4&group=s2)
+- [qrcode/mo-blackfacts s3](qrcode/mo-blackfacts-qrcode.html?v=4&group=s3)
+- [qrcode/mo-blackfacts s4](qrcode/mo-blackfacts-qrcode.html?v=4&group=s4)
+- [qrcode/mo-blackfacts s5](qrcode/mo-blackfacts-qrcode.html?v=4&group=s5)
+- [qrcode/mo-blackfacts s6](qrcode/mo-blackfacts-qrcode.html?v=4&group=s6)
+- [qrcode/mo-blackfacts s1-s6](qrcode/mo-blackfacts-qrcode.html?v=4&group=s1,s2,s3,s4,s5,s6)
 
 ## shout
 
