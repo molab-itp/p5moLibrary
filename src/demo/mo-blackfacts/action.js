@@ -55,17 +55,19 @@ function date_input_action() {
 let a_target;
 
 function dashboard_action(event) {
-  console.log('dashboard_action');
+  // console.log('dashboard_action');
   var target = event.target;
   a_target = target;
   if (target == id_dashboard) {
     console.log('dashboard_action id_dashboard');
-    player.playVideo();
-    update_blackfacts_num_ui();
+    // player.playVideo();
+    // update_blackfacts_num_ui();
     // toggle_buttons_action();
   } else {
-    console.log('dashboard_action other');
+    console.log('dashboard_action other', target);
   }
+  player.playVideo();
+  update_blackfacts_num_ui();
 }
 
 function echo_delay_0_action() {
