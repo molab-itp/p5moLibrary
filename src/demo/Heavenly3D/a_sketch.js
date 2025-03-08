@@ -20,11 +20,11 @@ function preload() {
   //
   my.moonImg = loadImage(path + '/moon.jpg');
   //
-  my.backgImgs.push(loadImage(path + '/Manju.jpg'));
-  my.backgImgs.push(loadImage(path + '/plenty.jpeg'));
-  my.backgImgs.push(loadImage(path + '/sun.jpg'));
   my.backgImgs.push(loadImage(path + '/The_Celestial_Zoo.png'));
+  my.backgImgs.push(loadImage(path + '/Manju.jpg'));
+  my.backgImgs.push(loadImage(path + '/sun.jpg'));
   my.backgImgs.push(loadImage(path + '/Da_Vinci.jpg'));
+  my.backgImgs.push(loadImage(path + '/plenty.jpeg'));
 }
 
 function setup() {

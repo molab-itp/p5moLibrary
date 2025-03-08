@@ -46,8 +46,10 @@ function renderBlobToCanvas(blob) {
   let ctx = my.replayLayer.drawingContext;
   var img = new Image();
   img.onload = function () {
+    // Draw the image into the my.relayLayer
     ctx.drawImage(img, 0, 0, width, height);
     URL.revokeObjectURL(img.src);
   };
+  // trigger onload
   img.src = URL.createObjectURL(blob);
 }

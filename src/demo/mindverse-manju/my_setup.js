@@ -1,7 +1,7 @@
 //
 function my_setup() {
   //
-  my.version = '?v=6';
+  my.version = '?v=7';
 
   // my.primaryPortion = 0.333;
   my.primaryPortion = 0.5;
